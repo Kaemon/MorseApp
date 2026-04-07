@@ -12,24 +12,25 @@ A simple, lightweight CLI tool written in Python to convert standard text into M
 The core of the translation logic uses Python's **List Comprehension** for efficiency:
 ```python
 output = " ".join([morse_dict.get(char, "") for char in input_message])
+```
 📋 How to Use
 Clone the repository:
-
-Bash
+```Bash
 git clone [https://github.com/YOUR_USERNAME/morse-code-translator-py.git](https://github.com/YOUR_USERNAME/morse-code-translator-py.git)
+```
 Navigate to the directory:
-
-Bash
+```Bash
 cd morse-code-translator-py
-Run the script:
+```
 
-Bash
+Run the script:
+```Bash
 python morse_translator.py
+```
+
 Follow the prompt: Enter your text, and the Morse code will be printed in the terminal.
 
 📖 Dictionary Support
 Letters: A-Z (Case-insensitive)
-
 Numbers: 0-9
-
 Special Characters: . , ? ! / ( ) & : ; = + - _ " $ @
